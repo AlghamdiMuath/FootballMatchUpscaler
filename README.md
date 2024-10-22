@@ -13,7 +13,7 @@ This project uses Real-ESRGAN to upscale low-quality Saudi football match videos
 
 ### Prerequisites
 
-Make sure you have Python 3.7 or later installed.
+Make sure you have Python 3.9 installed.
 
 ### Step-by-Step Setup Instructions (Terminal)
 
