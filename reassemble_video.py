@@ -1,3 +1,5 @@
+import cv2
+import os
 def reassemble_video(input_dir, output_video_path, fps=30):
     frames = sorted([f for f in os.listdir(input_dir) if f.endswith('.png')])
     frame = cv2.imread(os.path.join(input_dir, frames[0]))
